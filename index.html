@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+
+ <title>Trivial Pursuit</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <header>
+ 
+  <nav>
+   <ul>
+    <li id="logo"><a href="https://alybaba07.github.io/trivialpursuit/">Accueil</a></li>
+   </ul>
+  </nav>
+	  
+  <div id="imagePrincipale">
+  <h1>Questions</h1>
+  </div>
+</header>
+
+<section id="Question">
+<textarea id="tt" size="63%"></textarea>
+<input type="button" value="Random" id="bouton" onClick="populate();">
+<script type="text/javascript" charset="utf-8">
+function populate () {
+    var obj=document.getElementById("tt" ),
+    aleatoire=Math.floor(Math.random()*25);
+    switch(aleatoire){
+    case 0:obj.value="Calcifer https://media.discordapp.net/attachments/847965310371889182/944642289010090064/2Q.png";break;
+    case 1:obj.value="Aru Akise https://media.discordapp.net/attachments/847965310371889182/944642345918406706/168.png";break;
+    case 2:obj.value="Haku https://media.discordapp.net/attachments/847965310371889182/944642400524066816/600.png";break;
+    case 3:obj.value="Dio Brando https://media.discordapp.net/attachments/847965310371889182/944642476138975232/latest.png";break;
+    case 4:obj.value="Osamu Dazai https://media.discordapp.net/attachments/847965310371889182/944642539875602552/55490.png";break;
+	case 5:obj.value="Muzan Kibutsuji https://media.discordapp.net/attachments/847965310371889182/944642647035883590/350.png?width=604&height=640";break;
+	case 6:obj.value="Hange Zoë https://media.discordapp.net/attachments/847965310371889182/944642711925956638/700.png?width=640&height=640";break;
+	case 7:obj.value="Mei Kusakabe https://media.discordapp.net/attachments/847965310371889182/944642839994839120/345.png";break;
+	case 8:obj.value="Inumaki Toge https://media.discordapp.net/attachments/364791199736922114/944643375695532082/aca19656b1a10eaf0a98886ffa0cee6d.png";break;
+	case 9:obj.value="Doflamingo https://media.discordapp.net/attachments/364791199736922114/944643956350804018/DMz0CxZXkAAyabm.png?width=960&height=538";break;
+	case 10:obj.value="Takashi Mitsuya https://media.discordapp.net/attachments/847965310371889182/944643837933006919/9k.png";break;
+	case 11:obj.value="Yato https://media.discordapp.net/attachments/364791199736922114/944644236589039656/Yato-Noragami.png?width=960&height=560";break;
+	case 12:obj.value="Uta https://media.discordapp.net/attachments/847965310371889182/944644296726970378/300.png";break;
+	case 13:obj.value="Serena https://media.discordapp.net/attachments/364791199736922114/944645186573721600/serena_2245.png";break;
+	case 14:obj.value="Tet https://media.discordapp.net/attachments/847965310371889182/944645157536550952/225.png";break;
+	case 15:obj.value="Anya Forger https://media.discordapp.net/attachments/364791199736922114/944645669774295040/457933.png";break;
+	case 16:obj.value="Toru Hagakure https://media.discordapp.net/attachments/364791199736922114/944645832400068708/My-Hero-Academia.png?width=960&height=540";break;
+	case 17:obj.value="Echidna https://media.discordapp.net/attachments/847965310371889182/944645757678522438/latest.png?width=960&height=543";break;
+	case 18:obj.value="Onyankopon https://media.discordapp.net/attachments/847965310371889182/944646172222586910/9k.png";break;
+	case 19:obj.value="Soeur Krone https://media.discordapp.net/attachments/364791199736922114/944646951520075846/krone_19107.png";break;
+	case 20:obj.value="Nobara Kugisaki https://media.discordapp.net/attachments/364791199736922114/944648315323154512/kugisaki_nobara_19885.png?width=640&height=640";break;
+	case 21:obj.value="Izumi Shimomura https://media.discordapp.net/attachments/364791199736922114/944649793135845387/latest.png";break;
+	case 22:obj.value="Tetsurou Kuroo https://media.discordapp.net/attachments/364791199736922114/944649917358563328/latest.png";break;
+	case 23:obj.value="Mirajane Strauss https://media.discordapp.net/attachments/364791199736922114/944650113593245756/latest.png?width=619&height=640";break;
+	case 24:obj.value="Ichigo Kurosaki https://media.discordapp.net/attachments/364791199736922114/944650236368912384/latest.png";break;
+    }
+}
+</script>
+</section>
+ <section id="Categories">
+
+<div id="Liste">
+<div class="imagesListe">
+<img src="media/Questions.jpg" alt="Yuji Itadori"></a>
+</div>
+</section>
+
+<footer>
+<div id="deuxièmeTrait"></div>
+<div id="copyright">
+<span>©Alybaba 2022</span>
+</div>
+
+</footer>
+</body>
+
+</html>
